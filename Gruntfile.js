@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     watch: {
-      files: ['Gruntfile.js', '**/*.py'],
+      files: ['Gruntfile.js', 'eventex/**/*.py'],
       tasks: ['shell']
     },
     shell: {
