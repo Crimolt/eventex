@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     },
     shell: {
       test: {
-        command: '.wttd/Scripts/activate && python manage.py test'
+        command: '.wttd\\Scripts\\activate && python manage.py test'
       }
     }
   });
