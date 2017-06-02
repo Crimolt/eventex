@@ -7,13 +7,8 @@ module.exports = function(grunt) {
       tasks: ['shell']
     },
     shell: {
-      options: {
-        execOptions: {
-			    shell: '/bin/bash'
-        }
-		  },
       test: {
-        command: 'source .wttd/bin/activate && python manage.py test'
+        command: '.wttd/Scripts/activate && python manage.py test'
       }
     }
   });
