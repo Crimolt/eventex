@@ -3,4 +3,6 @@
 *.sqlite3
 *pyc
 __pycache__
+staticfiles
 node_modules
+.vscode
