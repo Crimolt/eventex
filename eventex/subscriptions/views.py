@@ -1,8 +1,16 @@
+from django.core import mail
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 from eventex.subscriptions.forms import SubscriptionForm
 
 
 def subscribe(request):
-    context = {'form': SubscriptionForm()}
-    return render(request, 'subscriptions/subscription_form.html', context)
+    if request.method == 'POST':
+
+        mail.send_mail('Confirmação de inscrição', 'Message', 'sender@email.com', ['visitor@email.com'])
+
+        return HttpResponseRedirect('/inscricao/')
+    else:
+        context = {'form': SubscriptionForm()}
+        return render(request, 'subscriptions/subscription_form.html', context)
     
