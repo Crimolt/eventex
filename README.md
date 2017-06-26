@@ -2,8 +2,8 @@
 
 Sistema de Eventos encomendado pela Morena
 
-[![Build Status](https://travis-ci.org/Crimolt/eventex.svg?branch=master)](https://travis-ci.org/Crimolt/eventex)
-[![Code Health](https://landscape.io/github/Crimolt/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/Crimolt/eventex/master)
+[![Build Status](https://travis-ci.org/leviplj/eventex.svg?branch=master)](https://travis-ci.org/leviplj/eventex)
+[![Code Health](https://landscape.io/github/leviplj/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/leviplj/eventex/master)
 
 ## Como desenvolver?
 
@@ -17,7 +17,7 @@ Sistema de Eventos encomendado pela Morena
 ```console
 git clone git@github.com/Crimolt/eventex.git wttd
 cd wttd
-python -m venv. wttd
+python -m venv .wttd
 source .wttd/bin/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
